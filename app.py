@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from services.stock import stock_gpt
+# from services.stock import stock_gpt
+from services.ai import stock_gpt
 
 app = FastAPI()
 
